@@ -259,7 +259,7 @@ If the value found matches the first digit of the complement, then this digit is
 
 ### Steps
 
-![.](/assets/Diagrama%20Validação%20CPF%20PT.br.png)
+![.](/assets/Diagrama%20Validação%20CPF%20EN.png)
 
 
 ## How to use:
