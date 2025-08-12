@@ -1,6 +1,6 @@
 <p align="center">
   <h1>
-    Gerador / Validador de CPF (CLI)
+    CPF Generator / Validator(CLI)
   </h1>
 </p>
 
