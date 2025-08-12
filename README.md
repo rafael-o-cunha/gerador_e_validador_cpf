@@ -6,7 +6,7 @@
 
 <div style="display: flex; align-items: center; padding: 10px;">
   <span>
-    <a href="https://github.com/rocunha09/">
+    <a href="https://github.com/rafael-o-cunha/rafael-o-cunha">
         <img src="https://img.shields.io/badge/-Home-black?style=for-the-badge" alt="Voltar ao Perfil">
     </a>
 </span>
@@ -16,19 +16,19 @@
 
 <div style="display: flex; align-items: center; padding: 10px;">
   <span>
-    <a href="https://github.com/rocunha09/gerador_e_validador_cpf/blob/main/README.md">
+    <a href="https://github.com/rafael-o-cunha/gerador_e_validador_cpf/blob/main/README.md">
       <img src="https://img.shields.io/badge/-Português-green?style=for-the-badge" alt="Português">
     </a>
   </span>
 
   <span>
-    <a href="https://github.com/rocunha09/gerador_e_validador_cpf/blob/main/README_EN.md">
+    <a href="https://github.com/rafael-o-cunha/gerador_e_validador_cpf/blob/main/README_EN.md">
       <img src="https://img.shields.io/badge/-English-blue?style=for-the-badge" alt="English">
     </a>
   </span>
 
   <span>
-    <a href="https://github.com/rocunha09/gerador_e_validador_cpf/blob/main/README_ES.md">
+    <a href="https://github.com/rafael-o-cunha/gerador_e_validador_cpf/blob/main/README_ES.md">
       <img src="https://img.shields.io/badge/-Español-red?style=for-the-badge" alt="Español">
     </a>
   </span>
