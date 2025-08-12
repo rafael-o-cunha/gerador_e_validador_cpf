@@ -6,7 +6,7 @@
 
 <div style="display: flex; align-items: center; padding: 10px;">
   <span>
-    <a href="https://github.com/rocunha09/">
+    <a href="https://github.com/rafael-o-cunha/rafael-o-cunha/blob/main/README_EN.md">
         <img src="https://img.shields.io/badge/-Home-black?style=for-the-badge" alt="Voltar ao Perfil">
     </a>
 </span>
@@ -22,13 +22,13 @@
   </span>
 
   <span>
-    <a href="https://github.com/rocunha09/gerador_e_validador_cpf/blob/main/README_EN.md">
+    <a href="https://github.com/rafael-o-cunha/gerador_e_validador_cpf/blob/main/README_EN.md">
       <img src="https://img.shields.io/badge/-English-blue?style=for-the-badge" alt="English">
     </a>
   </span>
 
   <span>
-    <a href="https://github.com/rocunha09/gerador_e_validador_cpf/blob/main/README_ES.md">
+    <a href="https://github.com/rafael-o-cunha/gerador_e_validador_cpf/blob/main/README_ES.md">
       <img src="https://img.shields.io/badge/-Español-red?style=for-the-badge" alt="Español">
     </a>
   </span>
@@ -50,17 +50,17 @@
 
 
 
-## Descrição
-O projeto consiste na criação de um gerador e validador de CPF simples que funciona via CLI e tem o objetivo de explorar recursos básicos a nível "Faixa Branca" do Python
+## Description
+The project consists of creating a simple CPF generator and validator that works via CLI and aims to explore basic "White Belt" level features of Python
 
 
-## Especificações
-    Colete, limpe e valide o dado que representa o cpf, ele deve ter 11 dígitos, exmeplo: CPF 746.824.890-70
+## Specifications
+  Collect, clean and validate the data that represents the "CPF", it must have 11 digits, example: CPF 746.824.890-70
 
 <table border="1" style="border-collapse: collapse; text-align: center;">
   <thead>
     <tr>
-      <th colspan="12"  style="text-align:center;">Primeira etapa: Calcular o primeiro dígito</th>
+      <th colspan="12"  style="text-align:center;">First step: Calculate the first digit</th>
     </tr>
   </thead>
   <tbody>
@@ -68,7 +68,7 @@ O projeto consiste na criação de um gerador e validador de CPF simples que fun
       <td colspan="12"  style="text-align:center;"><strong>CPF</strong>: 746.824.890-70</td>
     </tr>
     <tr>
-      <td><strong>Dígitos</strong></td>
+      <td><strong>Digits</strong></td>
       <td>7</td>
       <td>4</td>
       <td>6</td>
@@ -82,7 +82,7 @@ O projeto consiste na criação de um gerador e validador de CPF simples que fun
       <td>0</td>
     </tr>
     <tr>
-      <td><strong>Multiplicador</strong></td>
+      <td><strong>Multiplier</strong></td>
       <td>10</td>
       <td>9</td>
       <td>8</td>
@@ -96,7 +96,7 @@ O projeto consiste na criação de um gerador e validador de CPF simples que fun
       <td></td>
     </tr>
     <tr>
-      <td><strong>Resultado</strong></td>
+      <td><strong>Result</strong></td>
       <td>70</td>
       <td>36</td>
       <td>48</td>
@@ -110,28 +110,28 @@ O projeto consiste na criação de um gerador e validador de CPF simples que fun
       <td></td>
     </tr>
     <tr>
-      <td><strong>Resultados somados</strong></td>
+      <td><strong>Sum of results</strong></td>
       <td>301</td>
     </tr>
     <tr>
-      <td><strong>Resultado somado multiplicado por 10</strong></td>
+      <td><strong>Result summed and multiplied by 10</strong></td>
       <td>3010</td>
     </tr>
     <tr>
-      <td><strong>Resto da divisão por 11</strong></td>
+      <td><strong>Mod of division by 11</strong></td>
       <td>7</td>
     </tr>
   </tbody>
 </table>
 
-Se o resultado da conta for maior que 9 então considerar 0,
-se não considerar o valor resultante.
+If the result of the calculation is greater than 9, then consider 0,
+if not, consider the resulting value.
 
 
 <table border="1" style="border-collapse: collapse; text-align: center;">
   <thead>
     <tr>
-      <th colspan="12"  style="text-align:center;">Primeira etapa: Calcular o primeiro dígito</th>
+      <th colspan="12"  style="text-align:center;">First step: Calculate the first digit</th>
     </tr>
   </thead>
   <tbody>
@@ -139,26 +139,26 @@ se não considerar o valor resultante.
       <td colspan="12"  style="text-align:center;"><strong>CPF</strong>: 746.824.890-70</td>
     </tr>
     <tr>
-      <td><strong>Dígitos</strong></td>
+      <td><strong>Digits</strong></td>
       <td>7</td>
       <td>0</td>
     </tr>
     <tr>
-      <td><strong>Resultado da conta anterior:</strong></td>
+      <td><strong>Result of previous account:</strong></td>
       <td>7</td>
     </tr>
     <tr>
   </tbody>
 </table>
 
-Se o valor encontrado bater com o primeiro dígito do complemento então este dígito é válido
+If the value found matches the first digit of the complement then this digit is valid
 
-## Obs.: Para segunda etapa, basta repetir o cálculo incluindo o primeiro dígito válido:
+## Obs.: For the second step, simply repeat the calculation including the first valid digit:
 
 <table border="1" style="border-collapse: collapse; text-align: center;">
   <thead>
     <tr>
-      <th colspan="12"  style="text-align:center;">Segunda etapa: Calcular o segundo dígito</th>
+      <th colspan="12"  style="text-align:center;">Second step: Calculate the second digit</th>
     </tr>
   </thead>
   <tbody>
@@ -166,7 +166,7 @@ Se o valor encontrado bater com o primeiro dígito do complemento então este d�
       <td colspan="12"  style="text-align:center;"><strong>CPF</strong>: 746.824.890-70</td>
     </tr>
     <tr>
-      <td><strong>Dígitos</strong></td>
+      <td><strong>Digits</strong></td>
       <td>7</td>
       <td>4</td>
       <td>6</td>
@@ -180,7 +180,7 @@ Se o valor encontrado bater com o primeiro dígito do complemento então este d�
       <td>0</td>
     </tr>
     <tr>
-      <td><strong>Multiplicador</strong></td>
+      <td><strong>Multiplier</strong></td>
       <td>11</td>
       <td>10</td>
       <td>9</td>
@@ -194,7 +194,7 @@ Se o valor encontrado bater com o primeiro dígito do complemento então este d�
       <td></td>
     </tr>
     <tr>
-      <td><strong>Resultado</strong></td>
+      <td><strong>Result</strong></td>
       <td>77</td>
       <td>40</td>
       <td>54</td>
@@ -208,11 +208,11 @@ Se o valor encontrado bater com o primeiro dígito do complemento então este d�
       <td></td>
     </tr>
     <tr>
-      <td><strong>Resultados somados</strong></td>
+      <td><strong>Sum of results</strong></td>
       <td>363</td>
     </tr>
     <tr>
-      <td><strong>Resultado somado multiplicado por 10</strong></td>
+      <td><strong>Result summed and multiplied by 10</strong></td>
       <td>3630</td>
     </tr>
     <tr>
@@ -222,14 +222,12 @@ Se o valor encontrado bater com o primeiro dígito do complemento então este d�
   </tbody>
 </table>
 
-Se o resultado da conta for maior que 9 então considerar 0,
-se não considerar o valor resultante.
-
+If the result of the calculation is greater than 9, then consider 0; otherwise, consider the resulting value.
 
 <table border="1" style="border-collapse: collapse; text-align: center;">
   <thead>
     <tr>
-      <th colspan="12"  style="text-align:center;">Primeira etapa: Calcular o primeiro dígito</th>
+      <th colspan="12"  style="text-align:center;">First step: Calculate the first digit</th>
     </tr>
   </thead>
   <tbody>
@@ -237,12 +235,12 @@ se não considerar o valor resultante.
       <td colspan="12"  style="text-align:center;"><strong>CPF</strong>: 746.824.890-70</td>
     </tr>
     <tr>
-      <td><strong>Dígitos</strong></td>
+      <td><strong>Digits</strong></td>
       <td>7</td>
       <td>0</td>
     </tr>
     <tr>
-      <td><strong>Resultado da conta anterior:</strong></td>
+      <td><strong>Result of the previous calculation:</strong></td>
       <td></td>
       <td>0</td>
     </tr>
@@ -250,25 +248,24 @@ se não considerar o valor resultante.
   </tbody>
 </table>
 
-Se o valor encontrado bater com o primeiro dígito do complemento então este dígito é válido
+If the value found matches the first digit of the complement, then this digit is valid.
 
+## Steps and Features:
 
-## Etapas e Funcionalidades:
+### Features
 
-### Funcionalidades
+1. Generate a valid CPF.
+2. Validate an existing CPF.
 
-1. Gerar CPF Válido.
-2. Validar CPF Existente.
-
-### Etapas
+### Steps
 
 ![.](/assets/Diagrama%20Validação%20CPF%20PT.br.png)
 
 
-## Como utilizar:
-1. Clone o projeto para um ambiente que possua o  ![Bash](https://img.shields.io/badge/Python-3.12.3-blue) ou superior instalado.
+## How to use:
+1. Clone the project to an environment that has  ![Bash](https://img.shields.io/badge/Python-3.12.3-blue) or a higher version installed.
 
-2. Rode o projeto e siga as instruções que aparecerem.
+2. Run the project and follow the instructions that appear.
 ```bash
 > python3 main.py
 ```
